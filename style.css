@@ -1,0 +1,99 @@
+*{
+    font-family: "Playfair Display", serif;
+}
+
+html
+{
+scroll-behavior:smooth ;
+}
+ul li
+{
+ font-size:x-large;
+}
+#homediv
+{
+    position: relative;
+}
+#backgroundimg
+{
+    position: absolute;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+#title
+{
+    margin-top: 10px;
+    position: absolute;
+    font-size: 90px;
+    color:black;
+}
+#welcome-quote
+{
+    margin-top: 280px;
+    position: absolute;
+    font-size: 30px;
+    color:black;
+
+}
+#name
+{
+    font-family: "Bebas Neue", sans-serif;
+    color: black;
+    font-size: 100px;
+}
+.heading
+{
+    margin-left: 600px;
+}
+.card-title
+{
+    color: blue;
+    font-size: 40px;
+}
+.card-body p
+{
+  text-align: justify;
+}
+#contact #icons
+{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+}
+#footer-nav
+{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ justify-content: space-between;
+ list-style: none;
+}
+.f-nav
+{
+    color: white;
+    text-decoration: underline;
+    font-size: 20px;
+}
+@media(max-width:480px)
+{
+ #title
+ {
+    font-size: 20px;
+   
+ }  
+ #welcome-quote
+ {
+    font-size: 10px;
+    margin-top: 80px;
+ } 
+ #name
+ {
+    font-size: 20px;
+ }
+}
+
+
