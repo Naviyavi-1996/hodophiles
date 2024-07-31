@@ -1,5 +1,7 @@
 *{
     font-family: "Playfair Display", serif;
+    padding: 0px;
+    margin: 0px;
 }
 
 html
@@ -11,29 +13,20 @@ ul li
  font-size:x-large;
 }
 #homediv
-{
-    position: relative;
-}
-#backgroundimg
-{
-    position: absolute;
-    background-position: center;
-    background-repeat:no-repeat;
+ {
+    background-image: url('https://wallpapers.com/images/hd/travel-hd-4zjwrepl0mzn70nd.jpg');
     background-size: cover;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
 }
 #title
 {
-    margin-top: 10px;
-    position: absolute;
     font-size: 90px;
     color:black;
 }
 #welcome-quote
 {
-    margin-top: 280px;
-    position: absolute;
     font-size: 30px;
     color:black;
 
@@ -46,7 +39,7 @@ ul li
 }
 .heading
 {
-    margin-left: 600px;
+    text-align: center;
 }
 .card-title
 {
@@ -64,6 +57,22 @@ ul li
     display: flex;
     justify-content: space-between;
 }
+#mission
+{
+    font-size: xx-large;
+}
+#abimg1
+{
+    margin-left: 400px;
+    margin-top: -200px;
+    height:300px;
+    width:600px;
+}
+#abimg2
+{
+  margin-left: 1000px;
+  margin-top: -250px;
+}
 #footer-nav
 {
  display: flex;
@@ -78,7 +87,7 @@ ul li
     text-decoration: underline;
     font-size: 20px;
 }
-@media(max-width:480px)
+@media(max-width:720px)
 {
  #title
  {
@@ -94,6 +103,35 @@ ul li
  {
     font-size: 20px;
  }
+ #about h1
+ {
+    font-size: 20px;
+ }
+ #about h5
+ {
+    font-size: 12px;
+ }
+ #about #mission
+ {
+    font-size: 10px;
+ }
+ #about #abimg1,#abimg2
+ {
+    height:200px;
+    width:200px;
+    margin-left: 0px;
+    margin-top: 1px;
+ }
+ #contact #icons
+ {
+    display: inline-block;
+ }
+ #icons img
+{
+    height: 200px;
+    width: 300px;
+}
+ 
 }
 
 
