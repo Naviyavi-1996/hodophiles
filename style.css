@@ -114,17 +114,18 @@ ul li
  #about #mission
  {
     font-size: 10px;
+    text-align: center;
  }
  #about #abimg1,#abimg2
  {
     height:200px;
-    width:200px;
+    width:100%;
     margin-left: 0px;
     margin-top: 1px;
  }
  #contact #icons
  {
-    display: inline-block;
+    display: inline;
  }
  #icons img
 {
