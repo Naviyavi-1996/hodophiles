@@ -62,7 +62,7 @@ ul li
 {
     font-size: xx-large;
 }
-#abimg1
+/* #abimg1
 {
     margin-left: 400px;
     margin-top: -200px;
@@ -73,22 +73,21 @@ ul li
 {
   margin-left: 1000px;
   margin-top: -250px;
-}
-#footer-nav
+} */
+/* #footer-nav
 {
  display: flex;
  align-items: center;
  justify-content: center;
- justify-content: space-between;
  list-style: none;
-}
+} */
 .f-nav
 {
     color: white;
     text-decoration: underline;
     font-size: 20px;
 }
-@media(max-width:720px)
+/* @media(max-width:720px)
 {
  #title
  {
@@ -135,5 +134,5 @@ ul li
 }
  
 }
-
+ */
 
